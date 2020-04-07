@@ -27,7 +27,7 @@ module.exports = (sequelize, DataTypes) => {
   );
   RoomType.associate = (models) => {
     // associations can be defined here
-    RoomType.belongsTo(models.room, {
+    RoomType.belongsTo(models.Room, {
       foreignKey: 'id',
     });
   };

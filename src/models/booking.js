@@ -38,8 +38,7 @@ module.exports = (sequelize, DataTypes) => {
   Booking.associate = (models) => {
     // associations can be defined here
     Booking.hasOne(models.Room, {
-      foreignKey: 'roomId',
-      as: 'roomId'
+      foreignKey: 'roomId'
     });
 
     Booking.belongsTo(models.User, {

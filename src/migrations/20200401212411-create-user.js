@@ -22,7 +22,7 @@ module.exports = {
       type: Sequelize.STRING,
       required: true
     },
-    admin: {
+    isAdmin: {
       type: Sequelize.BOOLEAN,
       required: true
     },
