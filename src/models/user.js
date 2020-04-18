@@ -23,7 +23,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       required: true,
     },
-    admin: {
+    isAdmin: {
       type: DataTypes.BOOLEAN,
       required: true
     }
